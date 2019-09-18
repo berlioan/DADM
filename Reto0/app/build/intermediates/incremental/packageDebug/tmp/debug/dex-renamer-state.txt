@@ -1,0 +1,7 @@
+#Fri Aug 30 00:00:13 CEST 2019
+base.0=/home/silence/Documents/AndroidStudioProject/Reto0/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/home/silence/Documents/AndroidStudioProject/Reto0/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex
