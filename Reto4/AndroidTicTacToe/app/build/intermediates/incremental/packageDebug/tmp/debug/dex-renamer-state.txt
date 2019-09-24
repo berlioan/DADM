@@ -1,0 +1,7 @@
+#Tue Sep 24 08:02:08 ECT 2019
+base.0=/media/silence/DATA/Documents/Ecole/3 - UNAL/Cursos/DADM/Reto3/AndroidTicTacToe/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/media/silence/DATA/Documents/Ecole/3 - UNAL/Cursos/DADM/Reto3/AndroidTicTacToe/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex
