@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:gravity="center_horizontal" >
+
+<co.edu.unal.tictactoe.BoardView
+    android:id="@+id/board"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:layout_marginTop="5dp"/>
+
+
+<TextView android:id="@+id/information"    	           	android:layout_width="fill_parent"
+    android:layout_height="wrap_content"    			android:text="info"
+    android:gravity="center_horizontal" 		      android:layout_marginTop="20dp"
+    android:textSize="20dp" />
+
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <TextView
+        android:layout_toLeftOf="@+id/wins_counter"
+        android:id="@+id/wins_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:text="Human: "
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_toLeftOf="@+id/ties_text"
+        android:id="@+id/wins_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:text="cWins"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:layout_toLeftOf="@+id/ties_doublePoint"
+        android:id="@+id/ties_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"
+        android:text="Ties"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/ties_doublePoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:text=": "
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_toRightOf="@+id/ties_doublePoint"
+        android:id="@+id/ties_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:text="cTies"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_toRightOf="@+id/ties_counter"
+        android:id="@+id/android_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:text="Capitalism: "
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_toRightOf="@+id/android_text"
+        android:id="@+id/android_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:text="cLoses"
+        android:textSize="20dp" />
+
+</RelativeLayout>
+
+</LinearLayout>
